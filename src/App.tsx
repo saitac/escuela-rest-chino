@@ -1,8 +1,10 @@
+import Cabecera from "./components/Cabecera"
 
 function App() {
   return (
     <>
-      <h1>SALVADOR</h1>
+      <Cabecera/>
+      <h1 className="text-3xl font-bold underline">SALVADOR</h1>
     </>
   )
 }
